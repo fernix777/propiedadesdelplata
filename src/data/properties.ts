@@ -10,7 +10,7 @@ export const properties: Property[] = [
     bedrooms: 4,
     bathrooms: 3,
     area: 280,
-    imageUrl: '/public/assets/images/casa_residencial_gobernacion/logo_tarjeta.jpg',
+    imageUrl: 'https://postimg.cc/SnpBf3M7',
     description: 'Hermosa casa moderna con amplios espacios, jardín y terraza.'
   },
   {
@@ -22,7 +22,7 @@ export const properties: Property[] = [
     bedrooms: 1,
     bathrooms: 1,
     area: 52,
-    imageUrl: '/public/assets/images/local_comercial/logo_tarjeta.jpg',
+    imageUrl: 'https://postimg.cc/185HSKh1',
     description: 'Alquiler de local comercial en zona comercial, apto para todo rubro.'
   },
   {
