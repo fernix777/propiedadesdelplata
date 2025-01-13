@@ -10,7 +10,7 @@ export const properties: Property[] = [
     bedrooms: 4,
     bathrooms: 3,
     area: 280,
-    imageUrl: '/public/assets/images/casa_residencial_gobernacion/logo_tarjeta.jpg',
+    imageUrl: 'https://res.cloudinary.com/dslurnuhx/image/upload/v1736811365/logo_tarjeta_ooorm6.jpg',
     description: 'Hermosa casa moderna con amplios espacios, jardín y terraza.'
   },
   {
