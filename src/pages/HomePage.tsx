@@ -21,7 +21,7 @@ export function HomePage() {
           className="absolute w-full h-full object-cover"
         >
           <source 
-            src="/src/assets/video/promocional.mp4" 
+            src="/public/assets/video/promocional.mp4" 
             type="video/mp4" 
           />
           Tu navegador no soporta videos HTML5.
