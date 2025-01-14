@@ -10,7 +10,7 @@ export const properties: Property[] = [
     bedrooms: 4,
     bathrooms: 3,
     area: 280,
-    imageUrl: 'https://res.cloudinary.com/dslurnuhx/image/upload/v1736811365/logo_tarjeta_ooorm6.jpg',
+    imageUrl: '/public/assets/images/casa_residencial_gobernacion/logo_tarjeta.jpg',
     description: 'Hermosa casa moderna con amplios espacios, jardín y terraza.'
   },
   {
@@ -34,7 +34,7 @@ export const properties: Property[] = [
     bedrooms: 3,
     bathrooms: 3,
     area: 1250,
-    imageUrl: '/public/assets/images/logo_tarjeta.jpg',
+    imageUrl: '/public/assets/images/casa_quinta/logo_tarjeta.jpg',
     description: 'Casa quinta tres Dorm. Uno en Suite, Star Living, cocina,Comedor  tres Baños , Dependencias de servicio  pileta,garaje,Placares despensa Agua Calenté termotanque muro Perimetral portón Electrico Lote de 25 X 50  título impuestos al día SE ACEPTA LOTE HASTA 5 HECTAREAS ZONA HIPODROMO, ITAEMBE GUAZU'
   }
 ];
