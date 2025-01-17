@@ -21,7 +21,7 @@ export function HomePage() {
           className="absolute w-full h-full object-cover"
         >
           <source 
-            src="https://res.cloudinary.com/dslurnuhx/video/upload/v1736810535/promocional_r5nx0d.mp4" 
+            src="src/assets/video/hero-video.mp4" 
             type="video/mp4" 
           />
           Tu navegador no soporta videos HTML5.
