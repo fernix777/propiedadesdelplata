@@ -1,17 +1,26 @@
-import { Property } from '../types';
+import type { Property } from '../types/property';
 
 export const properties: Property[] = [
   {
     id: '1',
     title: 'Casa Barrio Gobernacion',
-    price: 450000,
+    price: 125000,
     location: 'Zona Centrica en posadas',
     type: 'house',
     bedrooms: 4,
     bathrooms: 3,
     area: 280,
-    imageUrl: '/src/assets/images/casa_residencial_gobernacion/logo_tarjeta.jpg',
-    description: 'Hermosa casa moderna con amplios espacios, jardín y terraza.'
+    images: [
+    '/public/images/casa_residencial_gobernacion/logo_tarjeta.jpg',
+    '/public/images/casa_residencial_gobernacion/Baño.jpg',
+    '/public/images/casa_residencial_gobernacion/Cocina.jpg',
+    '/public/images/casa_residencial_gobernacion/porton.jpg',
+    ],
+    description: 'Hermosa casa moderna con amplios espacios, jardín y terraza.',
+    features: ['Jardín amplio', 'Terraza', 'Cochera doble', 'Piscina'],
+    status: 'for_sale',
+    createdAt: '2024-01-22',
+    updatedAt: '2024-01-22'
   },
   {
     id: '2',
@@ -19,11 +28,18 @@ export const properties: Property[] = [
     price: 350,
     location: 'Posadas Misiones, centro',
     type: 'commercial',
-    bedrooms: 1,
-    bathrooms: 1,
     area: 52,
-    imageUrl: '/src/assets/images/local_comercial/logo_tarjeta.jpg',
-    description: 'Alquiler de local comercial en zona comercial, apto para todo rubro.'
+    images: [
+      '/public/images/local_comercial/Logo_tarjeta.jpg',
+      '/public/images/local_comercial/interior-1.jpg',
+      '/public/images/local_comercial/interior-2.jpg',
+      '/public/images/local_comercial/baño-1.jpg'
+    ],
+    description: 'Alquiler de local comercial en zona comercial, apto para todo rubro.',
+    features: ['Vidriera', 'Baño', 'Depósito', 'Aire acondicionado'],
+    status: 'for_rent',
+    createdAt: '2024-01-22',
+    updatedAt: '2024-01-22'
   },
   {
     id: '3',
@@ -34,11 +50,21 @@ export const properties: Property[] = [
     bedrooms: 3,
     bathrooms: 3,
     area: 1250,
-    imageUrl: '/src/assets/images/casa_quinta/logo_tarjeta.jpg',
-    description: 'Casa quinta tres Dorm. Uno en Suite, Star Living, cocina,Comedor  tres Baños , Dependencias de servicio  pileta,garaje,Placares despensa Agua Calenté termotanque muro Perimetral portón Electrico Lote de 25 X 50  título impuestos al día SE ACEPTA LOTE HASTA 5 HECTAREAS ZONA HIPODROMO, ITAEMBE GUAZU'
+    images: [
+      '/public/images/casa_quinta/logo_tarjeta.jpg',
+      '/public/images/casa_quinta/habitacion.jpg',
+      '/public/images/casa_quinta/hall.jpg',
+      '/public/images/casa_quinta/pileta1.jpg',
+      '/public/images/casa_quinta/baño.jpg',
+    ],
+    description: 'Casa quinta tres Dorm. Uno en Suite, Star Living, cocina, Comedor tres Baños, Dependencias de servicio, pileta, garaje, Placares despensa.',
+    features: ['Pileta', 'Quincho', 'Jardín', 'Garage'],
+    status: 'for_sale',
+    createdAt: '2024-01-22',
+    updatedAt: '2024-01-22'
   },
   {
-  id: '4',
+    id: '4',
     title: 'Casa Chacra 120',
     price: 180000,
     location: 'Chacra 120 Posadas',
@@ -46,14 +72,14 @@ export const properties: Property[] = [
     bedrooms: 3,
     bathrooms: 1,
     area: 200,
-    imageUrl: '/src/assets/images/chacra-120/logo-tarjeta.jpg',
-    description: 'casa chacra 120 cuenta con 3 dormitorios, lavadero, garage, living ampliado, piscina, quincho, muro perimetral.titulo impuesto al dia'
-
+    images: [
+      '/public/images/chacra-120/logo-tarjeta.jpg',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200'
+    ],
+    description: 'Casa en chacra 120 cuenta con 3 dormitorios, lavadero, garage, living ampliado, piscina, quincho, muro perimetral.',
+    features: ['Piscina', 'Quincho', 'Garage', 'Muro perimetral'],
+    status: 'for_sale',
+    createdAt: '2024-01-22',
+    updatedAt: '2024-01-22'
   }
-
-
-  
-
-
-
 ];
